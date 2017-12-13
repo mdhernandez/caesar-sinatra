@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
 
 def caesar (str, key, encrypted = false)
   c_arr = str.chars
